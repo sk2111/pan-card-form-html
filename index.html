@@ -56,7 +56,7 @@
                 name="citizen-type"
                 value="yes"
               />
-              <label for="citizen-no">No</label>
+              <label class="label-left-align" for="citizen-no">No</label>
               <input
                 id="citizen-no"
                 type="radio"
@@ -186,9 +186,7 @@
               </p>
             </td>
             <td>
-              <label class="label-left-align" for="single-parent-yes"
-                >Yes</label
-              >
+              <label for="single-parent-yes">Yes</label>
               <input
                 id="single-parent-yes"
                 type="radio"
@@ -293,9 +291,7 @@
               </span>
             </td>
             <td>
-              <label class="label-left-align" for="card-name-father"
-                >Father's name</label
-              >
+              <label for="card-name-father">Father's name</label>
               <input
                 id="card-name-father"
                 type="radio"
@@ -348,6 +344,43 @@
                   name="dob-year"
                 />
               </span>
+            </td>
+          </tr>
+          <!-- Gender -->
+          <tr>
+            <td>
+              <input type="checkbox" name="gender" />
+            </td>
+            <td class="second-col-width">
+              <p class="field-title">
+                <span class="asterisk">*</span>
+                6. Gender
+              </p>
+            </td>
+            <td>
+              <label for="gendermale">Male</label>
+              <input
+                id="gendermale"
+                type="radio"
+                name="gendermale"
+                value="male"
+              />
+              <label class="label-left-align" for="genderfemale">Female</label>
+              <input
+                id="genderfemale"
+                type="radio"
+                name="genderfemale"
+                value="mother"
+              />
+              <label class="label-left-align" for="gendertrans"
+                >TransGender</label
+              >
+              <input
+                id="gendertrans"
+                type="radio"
+                name="gendertrans"
+                value="transGender"
+              />
             </td>
           </tr>
         </tbody>
