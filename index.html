@@ -61,7 +61,7 @@
                 id="citizen-no"
                 type="radio"
                 name="citizen-type"
-                value="yes"
+                value="no"
               />
             </td>
           </tr>
@@ -126,19 +126,19 @@
                 <label for="user-last-name" class="field-title dp-block"
                   >Last Name/Surname</label
                 >
-                <input id="user-last-name" type="text" name="lastname" />
+                <input id="user-last-name" type="text" name="userLastName" />
               </span>
               <span class="span-inline">
                 <label for="user-first-name" class="field-title dp-block"
                   >First Name</label
                 >
-                <input id="user-first-name" type="text" name="lastname" />
+                <input id="user-first-name" type="text" name="userFirstname" />
               </span>
               <span class="span-inline">
                 <label for="user-middle-name" class="field-title dp-block"
                   >Middle Name</label
                 >
-                <input id="user-middle-name" type="text" name="lastname" />
+                <input id="user-middle-name" type="text" name="userMiddlename" />
               </span>
             </td>
           </tr>
@@ -226,19 +226,19 @@
                 <label for="father-last-name" class="field-title dp-block"
                   >Last Name/Surname</label
                 >
-                <input id="father-last-name" type="text" name="lastname" />
+                <input id="father-last-name" type="text" name="fatherlastname" />
               </span>
               <span class="span-inline">
                 <label for="father-first-name" class="field-title dp-block"
                   >First Name</label
                 >
-                <input id="father-first-name" type="text" name="lastname" />
+                <input id="father-first-name" type="text" name="fatherfirstname" />
               </span>
               <span class="span-inline">
                 <label for="father-middle-name" class="field-title dp-block"
                   >Middle Name</label
                 >
-                <input id="father-middle-name" type="text" name="lastname" />
+                <input id="father-middle-name" type="text" name="fathermiddlename" />
               </span>
             </td>
           </tr>
@@ -550,6 +550,59 @@
             </td>
             <td>
               <input type="number" name="town-city" class="address-field-min" />
+            </td>
+          </tr>
+          <!-- Other Address field -->
+          <tr>
+            <td>
+              <input type="checkbox" name="other-address"/>
+            </td>
+            <td colspan="2">
+              <p class="field-title">
+                10. If you desire to update your other address, give required details & 
+                <a href="https://www.google.com" target="_blank" class="other-proof-link">Submit proof of other address also</a> 
+              </p>
+            </td>
+          </tr>
+          <!-- Telephone number -->
+          <tr>
+            <td>
+              <input type="checkbox" name="telephone"/>
+            </td>
+            <td>
+              <p class="field-title">
+                <span class="asterisk">*</span>
+                11. Telephone No.
+              </p>
+              <span class="field-title-light">(Country code is compulsory)</span>
+            </td>
+            <td>
+              <p class="field-title-light">Country code (ISD code)</p>
+              <select name="=country" class="address-field-max"> 
+                <option>-- Please Select --</option>  
+              <select/>
+              <table class="full-width">
+                <tr>
+                  <td>
+                    <input id="mobile-number" type="radio" name="phone-number">
+                    <label for="mobile-number" class="label-small">Mobile No.</label>
+                  </td>
+                  <td>
+                    <input id="tele-number" type="radio" name="phone-number">
+                    <label for="tele-number" class="label-small">Telephone No.</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="area-std" class="label-small dp-block">Area/STD Code</label>
+                    <input id="area-std" type="number"/>
+                  </td>
+                  <td>
+                    <label for="telephone-num" class="label-small dp-block">Telephone No./Mobile No.</label>
+                    <input id="telephone-num" type="number"/>
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
         </tbody>

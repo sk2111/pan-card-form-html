@@ -87,6 +87,7 @@ td {
 }
 .italics-light {
   font-style: italic;
+  font-size: 12px;
   font-weight: 400;
 }
 .address-field {
@@ -100,4 +101,18 @@ td {
 }
 .address-field-min {
   width: 100px;
+}
+.other-proof-link:link,
+.other-proof-link:visited {
+  color: black;
+}
+.field-title-light {
+  font-size: 12px;
+  font-weight: 400;
+}
+.full-width {
+  width: 100%;
+}
+.label-small {
+  font-size: 12px;
 }
