@@ -43,7 +43,7 @@
         <tbody>
           <tr>
             <td></td>
-            <td>
+            <td colspan="2">
               <span class="field-title citizen-margin">
                 <span class="asterisk">*</span>
                 Whether citizen of India
@@ -67,7 +67,7 @@
 
           <tr>
             <td></td>
-            <td>
+            <td colspan="2">
               <label class="field-title" for="pan-number">
                 <span class="asterisk">*</span>
                 Permanent Account Number (PAN)
@@ -80,7 +80,7 @@
             <td class="checkbox">
               <input type="checkbox" name="username" />
             </td>
-            <td>
+            <td colspan="2">
               <span class="field-title" for="pan-number">
                 <span class="asterisk">*</span>
                 1.Name
@@ -90,7 +90,7 @@
 
           <tr>
             <td></td>
-            <td>
+            <td colspan="2">
               <span class="field-title citizen-margin"> Title </span>
               <label for="name-shri-mr">Shri/Mr</label>
               <input
@@ -118,7 +118,7 @@
 
           <tr>
             <td></td>
-            <td>
+            <td colspan="2">
               <span class="span-inline">
                 <p for="last-name" class="field-title">Last Name/Surname</p>
                 <input id="last-name" type="text" name="lastname" />
@@ -136,15 +136,61 @@
 
           <tr>
             <td></td>
-            <td>
+            <td colspan="2">
               <span class="field-title">
                 <span class="asterisk">*</span>
                 Name as you would like it printed on the card
-                <span
-                  class="span-blue">(prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias
+                <span class="span-blue"
+                  >(prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias
                   etc. are not allowed)</span
                 >
               </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <input class="name-input-field" type="text" name="nameprinted" />
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <span class="field-title">
+                Details of Parents
+                <span class="span-blue"
+                  >(prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias
+                  etc. are not allowed)</span
+                >
+              </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td style="width: 500px">
+              <p class="field-title">
+                Whether mother is single parent and you wish to apply for PAN by
+                furishing the name of your mother only
+              </p>
+            </td>
+            <td>
+              <label for="single-parent-yes">Yes</label>
+              <input
+                id="single-parent-yes"
+                type="radio"
+                name="single-parent-type"
+                value="yes"
+              />
+              <label for="single-parent-no">No</label>
+              <input
+                id="single-parent-no"
+                type="radio"
+                name="single-parent-type"
+                value="yes"
+              />
             </td>
           </tr>
         </tbody>

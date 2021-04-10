@@ -57,5 +57,7 @@ td {
 }
 .span-blue {
   color: blue;
-  font-weight: 400;
+}
+.name-input-field {
+  width: 300px;
 }
