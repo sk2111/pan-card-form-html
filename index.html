@@ -359,12 +359,7 @@
             </td>
             <td>
               <label for="gendermale">Male</label>
-              <input
-                id="gendermale"
-                type="radio"
-                name="gender"
-                value="male"
-              />
+              <input id="gendermale" type="radio" name="gender" value="male" />
               <label class="label-left-align" for="genderfemale">Female</label>
               <input
                 id="genderfemale"
@@ -405,6 +400,44 @@
                 <span class="asterisk-yellow">*</span>
                 8. Signature Mismatch
               </p>
+            </td>
+          </tr>
+          <!-- Address for communication -->
+          <tr>
+            <td>
+              <input type="checkbox" name="address" />
+            </td>
+            <td>
+              <p class="field-title">
+                <span class="asterisk">*</span>
+                9.Address for communication
+              </p>
+            </td>
+            <td>
+              <label for="residence">Residential</label>
+              <input
+                id="residence"
+                type="radio"
+                name="address"
+                value="residence"
+              />
+              <label class="label-left-align" for="office">office</label>
+              <input id="office" type="radio" name="address" value="office" />
+            </td>
+          </tr>
+          <!-- Office name -->
+          <tr>
+            <td></td>
+            <td>
+              <p class="field-title">
+                Office Name
+                <span class="italics-light"
+                  >(to be filled only in case of office address)</span
+                >
+              </p>
+            </td>
+            <td>
+              <input type="text" name="office-name" class="address-field"/>
             </td>
           </tr>
         </tbody>

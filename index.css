@@ -85,3 +85,10 @@ td {
 .fw-bold {
   font-weight: bold;
 }
+.italics-light {
+  font-style: italic;
+  font-weight: 400;
+}
+.address-field {
+  width: 250px;
+}
