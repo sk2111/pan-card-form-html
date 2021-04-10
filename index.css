@@ -14,8 +14,11 @@ label {
 table,
 tr,
 td {
-  border: 1px solid black;
+  border: 1px solid rgb(118, 118, 118);
   border-collapse: collapse;
+}
+td {
+  padding: 1px;
 }
 .dp-block {
   display: block;
@@ -113,6 +116,21 @@ td {
 .full-width {
   width: 100%;
 }
+.full-width-75p {
+  width: 75%;
+}
 .label-small {
   font-size: 12px;
+}
+.inner-table {
+  border-left: 0;
+}
+.inner-table tr:last-child td {
+  border-bottom: 0;
+}
+.italic-blue-dark {
+  color: darkblue;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
 }

@@ -581,7 +581,7 @@
               <select name="=country" class="address-field-max"> 
                 <option>-- Please Select --</option>  
               <select/>
-              <table class="full-width">
+              <table class="full-width inner-table">
                 <tr>
                   <td>
                     <input id="mobile-number" type="radio" name="phone-number">
@@ -603,6 +603,73 @@
                   </td>
                 </tr>
               </table>
+            </td>
+          </tr>
+          <!-- Email ID -->
+          <tr>
+            <td></td>
+            <td>
+              <p class="field-title">E-mail ID</p>
+            </td>
+            <td>
+              <input type="text" name="email-id" class="address-field-max">
+            </td>
+          </tr>
+          <!-- Incase of citizen -->
+          <tr>
+            <td></td>
+            <td>
+              <p class="label-small"> In case of a citizen of India, then</p>
+            </td>
+            <td>
+              <input id="aadhar" type="radio" name="proof-card" >
+              <label for="aadhar">AADHAAR</label>
+              <input id="EID" type="radio" name="proof-card" >
+              <label for="EID">EID</label>
+            </td>
+          </tr>
+          
+          <!-- Aadhar Number -->
+          <tr>
+            <td>
+              <input type="checkbox" name="aadhar"/>
+            </td>
+            <td>
+              <p class="field-title">
+                <span class="asterisk">*</span>
+                12.AADHAAR number:
+              </p>
+            </td>
+            <td>
+              <input type="number" name="aadharnumber"/>
+              <p class="italic-blue-dark">In case of AADHAR number is provided,</p> 
+              <p class="italic-blue-dark">then proof of AADHAR along with supporting documents is to be submitted to NSDL</p> 
+            </td>
+          </tr>
+
+          <!-- Name as per aadhar -->
+          <tr>
+            <td></td>
+            <td>
+              <p class="label-small">
+                <span class="asterisk">*</span>
+                Name as per AADHAAR letter
+              </p>
+              <p class="label-small">or</p>
+              <p class="label-small">as per the enrollment ID of Asdhaar application form</p>
+            </td>
+            <td>
+              <input type="text" name="aadharletter" class="full-width-75p">
+            </td>
+          </tr>
+          <!-- GSTN -->
+          <tr>
+            <td></td>
+            <td>
+              <p class="field-title"> 13.GSTN</p>
+            </td>
+            <td>
+              <input type="number" name="GSTN"/>
             </td>
           </tr>
         </tbody>
