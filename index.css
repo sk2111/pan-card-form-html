@@ -23,6 +23,9 @@ td {
 .asterisk {
   color: red;
 }
+.asterisk-yellow {
+  color: #ffffdd;
+}
 .form-table {
   width: 100%;
 }
