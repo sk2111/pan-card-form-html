@@ -11,7 +11,6 @@ p {
 }
 label {
   font-size: 13px;
-  margin-left: 25px;
 }
 table,
 tr,
@@ -51,4 +50,12 @@ td {
 }
 .checkbox {
   width: 25px;
+}
+.span-inline {
+  display: inline-block;
+  width: 250px;
+}
+.span-blue {
+  color: blue;
+  font-weight: 400;
 }
