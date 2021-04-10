@@ -140,3 +140,8 @@ td {
 .mt-5 {
   margin-top: 5px;
 }
+.sign-date {
+  display: inline-block;
+  font-size: 12px;
+  width: 17px;
+}
