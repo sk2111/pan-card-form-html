@@ -57,6 +57,9 @@ td {
   display: inline-block;
   width: 250px;
 }
+.second-col-width {
+  width: 500px;
+}
 .span-blue {
   color: blue;
   font-size: 12px;
@@ -64,4 +67,18 @@ td {
 }
 .name-input-field {
   width: 300px;
+}
+.label-left-align {
+  margin-left: 20px;
+}
+
+.dob-block {
+  display: inline-block;
+  width: 50px;
+}
+.year-text-box {
+  width: 50px;
+}
+.fw-bold {
+  font-weight: bold;
 }

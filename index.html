@@ -93,21 +93,23 @@
             <td></td>
             <td colspan="2">
               <span class="field-title citizen-margin"> Title </span>
-              <label for="name-shri-mr">Shri/Mr</label>
+              <label class="label-left-align" for="name-shri-mr">Shri/Mr</label>
               <input
                 id="name-shri-mr"
                 type="radio"
                 name="name-prefix"
                 value="Shri/Mr"
               />
-              <label for="name-smt-mrs">Smt/Mrs</label>
+              <label class="label-left-align" for="name-smt-mrs">Smt/Mrs</label>
               <input
                 id="name-smt-mrs"
                 type="radio"
                 name="name-prefix"
                 value="Smt/Mrs"
               />
-              <label for="name-kumari-ms">Kumari/Ms</label>
+              <label class="label-left-align" for="name-kumari-ms"
+                >Kumari/Ms</label
+              >
               <input
                 id="name-kumari-ms"
                 type="radio"
@@ -177,21 +179,23 @@
           <!-- Whether mother is single parent  -->
           <tr>
             <td></td>
-            <td style="width: 500px">
+            <td class="second-col-width">
               <p class="field-title">
                 Whether mother is single parent and you wish to apply for PAN by
                 furishing the name of your mother only
               </p>
             </td>
             <td>
-              <label for="single-parent-yes">Yes</label>
+              <label class="label-left-align" for="single-parent-yes"
+                >Yes</label
+              >
               <input
                 id="single-parent-yes"
                 type="radio"
                 name="single-parent-type"
                 value="yes"
               />
-              <label for="single-parent-no">No</label>
+              <label class="label-left-align" for="single-parent-no">No</label>
               <input
                 id="single-parent-no"
                 type="radio"
@@ -272,6 +276,77 @@
                   >Middle Name</label
                 >
                 <input id="mother-middle-name" type="text" name="lastname" />
+              </span>
+            </td>
+          </tr>
+          <!-- Select parent name to be printed on the card -->
+          <tr>
+            <td></td>
+            <td class="second-col-width">
+              <p class="field-title">
+                <span class="asterisk">*</span>
+                4.Select Parent name which is to be printed on the Card
+              </p>
+              <span class="span-blue">
+                (In case no option is provided the PAN card will be issued with
+                father's name)
+              </span>
+            </td>
+            <td>
+              <label class="label-left-align" for="card-name-father"
+                >Father's name</label
+              >
+              <input
+                id="card-name-father"
+                type="radio"
+                name="card-name"
+                value="father"
+              />
+              <label class="label-left-align" for="card-name-mother"
+                >Mother's name</label
+              >
+              <input
+                id="card-name-mother"
+                type="radio"
+                name="card-name"
+                value="mother"
+              />
+            </td>
+          </tr>
+          <!-- Date of birth -->
+          <tr>
+            <td>
+              <input type="checkbox" />
+            </td>
+            <td class="second-col-width">
+              <p class="field-title">
+                <span class="asterisk">*</span>
+                5. Date of Birth/Incorporation/Agreement/Partership <br />or
+                Trust Deed/Formation of Body of Individual/ <br />
+                Association of persons
+              </p>
+            </td>
+            <td>
+              <span class="dob-block">
+                <label class="dp-block fw-bold" for="dob-dd">DD</label>
+                <select id="dob-dd">
+                  <option>DD</option>
+                </select>
+              </span>
+              <span class="dob-block">
+                <label class="dp-block fw-bold" for="dob-mm">MM</label>
+                <select id="dob-mm">
+                  <option>MM</option>
+                </select>
+              </span>
+              <span class="dob-block fw-bold">
+                <label class="dp-block" for="dob-yyyy">YYYY</label>
+                <input
+                  id="dob-yyyy"
+                  class="year-text-box"
+                  type="text"
+                  name="dob-year"
+                />
               </span>
             </td>
           </tr>
