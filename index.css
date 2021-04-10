@@ -11,6 +11,7 @@ p {
 }
 label {
   font-size: 13px;
+  margin-left: 25px;
 }
 table,
 tr,
@@ -47,4 +48,7 @@ td {
 }
 .citizen-margin {
   margin-right: 50px;
+}
+.checkbox {
+  width: 25px;
 }

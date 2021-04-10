@@ -43,11 +43,11 @@
         <tbody>
           <tr>
             <td></td>
-            <td class="align-center">
-              <label class="field-title citizen-margin">
+            <td>
+              <span class="field-title citizen-margin">
                 <span class="asterisk">*</span>
                 Whether citizen of India
-              </label>
+              </span>
               <label for="citizen-yes">Yes</label>
               <input
                 id="citizen-yes"
@@ -64,6 +64,59 @@
               />
             </td>
           </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <label class="field-title" for="pan-number">
+                <span class="asterisk">*</span>
+                Permanent Account Number (PAN)
+              </label>
+              <input id="pan-number" type="text" name="pan-number" value="" />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="checkbox">
+              <input type="checkbox" name="username" />
+            </td>
+            <td>
+              <span class="field-title" for="pan-number">
+                <span class="asterisk">*</span>
+                1.Name
+              </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <span class="field-title citizen-margin"> Title </span>
+              <label for="name-shri-mr">Shri/Mr</label>
+              <input
+                id="name-shri-mr"
+                type="radio"
+                name="name-prefix"
+                value="Shri/Mr"
+              />
+              <label for="name-smt-mrs">Smt/Mrs</label>
+              <input
+                id="name-smt-mrs"
+                type="radio"
+                name="name-prefix"
+                value="Smt/Mrs"
+              />
+              <label for="name-kumari-ms">Kumari/Ms</label>
+              <input
+                id="name-kumari-ms"
+                type="radio"
+                name="name-prefix"
+                value="Kumari/Ms"
+              />
+            </td>
+          </tr>
+
+          
         </tbody>
       </table>
     </div>
