@@ -6,8 +6,7 @@ body {
   margin: 0px;
 }
 p {
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin: 0 0;
 }
 label {
   font-size: 13px;
@@ -17,6 +16,9 @@ tr,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+.dp-block {
+  display: block;
 }
 .asterisk {
   color: red;
@@ -57,6 +59,8 @@ td {
 }
 .span-blue {
   color: blue;
+  font-size: 12px;
+  font-weight: bold;
 }
 .name-input-field {
   width: 300px;

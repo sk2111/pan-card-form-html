@@ -41,6 +41,7 @@
           </tr>
         </thead>
         <tbody>
+          <!-- Citizen of india -->
           <tr>
             <td></td>
             <td colspan="2">
@@ -64,7 +65,7 @@
               />
             </td>
           </tr>
-
+          <!-- PAN Number  -->
           <tr>
             <td></td>
             <td colspan="2">
@@ -75,7 +76,7 @@
               <input id="pan-number" type="text" name="pan-number" value="" />
             </td>
           </tr>
-
+          <!-- Name -->
           <tr>
             <td class="checkbox">
               <input type="checkbox" name="username" />
@@ -87,7 +88,7 @@
               </span>
             </td>
           </tr>
-
+          <!-- Title -->
           <tr>
             <td></td>
             <td colspan="2">
@@ -115,25 +116,31 @@
               />
             </td>
           </tr>
-
+          <!-- LastName ,firstName ,MiddleName -->
           <tr>
             <td></td>
             <td colspan="2">
               <span class="span-inline">
-                <p for="last-name" class="field-title">Last Name/Surname</p>
-                <input id="last-name" type="text" name="lastname" />
+                <label for="user-last-name" class="field-title dp-block"
+                  >Last Name/Surname</label
+                >
+                <input id="user-last-name" type="text" name="lastname" />
               </span>
               <span class="span-inline">
-                <p for="first-name" class="field-title">First Name</p>
-                <input id="first-name" type="text" name="lastname" />
+                <label for="user-first-name" class="field-title dp-block"
+                  >First Name</label
+                >
+                <input id="user-first-name" type="text" name="lastname" />
               </span>
               <span class="span-inline">
-                <p for="middle-name" class="field-title">Middle Name</p>
-                <input id="middle-name" type="text" name="lastname" />
+                <label for="user-middle-name" class="field-title dp-block"
+                  >Middle Name</label
+                >
+                <input id="user-middle-name" type="text" name="lastname" />
               </span>
             </td>
           </tr>
-
+          <!-- Name as you would like it printed on the card -->
           <tr>
             <td></td>
             <td colspan="2">
@@ -147,14 +154,14 @@
               </span>
             </td>
           </tr>
-
+          <!-- Input field -->
           <tr>
             <td></td>
             <td colspan="2">
               <input class="name-input-field" type="text" name="nameprinted" />
             </td>
           </tr>
-
+          <!-- Details of Parents -->
           <tr>
             <td></td>
             <td colspan="2">
@@ -167,7 +174,7 @@
               </span>
             </td>
           </tr>
-
+          <!-- Whether mother is single parent  -->
           <tr>
             <td></td>
             <td style="width: 500px">
@@ -191,6 +198,81 @@
                 name="single-parent-type"
                 value="yes"
               />
+            </td>
+          </tr>
+          <!-- Fathers Name -->
+          <tr>
+            <td>
+              <input type="checkbox" name="fathernameinput" />
+            </td>
+            <td colspan="2">
+              <span class="field-title">
+                <span class="asterisk">*</span>
+                Father's Name
+                <span class="span-blue"
+                  >(Mandatory field. Even married women should give father's
+                  name only)</span
+                >
+              </span>
+            </td>
+          </tr>
+          <!-- LastName firstName -->
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <span class="span-inline">
+                <label for="user-last-name" class="field-title dp-block"
+                  >Last Name/Surname</label
+                >
+                <input id="user-last-name" type="text" name="lastname" />
+              </span>
+              <span class="span-inline">
+                <label for="user-first-name" class="field-title dp-block"
+                  >First Name</label
+                >
+                <input id="user-first-name" type="text" name="lastname" />
+              </span>
+              <span class="span-inline">
+                <label for="user-middle-name" class="field-title dp-block"
+                  >Middle Name</label
+                >
+                <input id="user-middle-name" type="text" name="lastname" />
+              </span>
+            </td>
+          </tr>
+          <!-- Mothers Name -->
+          <tr>
+            <td>
+              <input type="checkbox" name="mothername-check" />
+            </td>
+            <td colspan="2">
+              <span class="span-blue"
+                >Mother's Name(This field is optional)</span
+              >
+            </td>
+          </tr>
+          <!-- LastName firstName -->
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <span class="span-inline">
+                <label for="mother-last-name" class="field-title dp-block"
+                  >Last Name/Surname</label
+                >
+                <input id="mother-last-name" type="text" name="lastname" />
+              </span>
+              <span class="span-inline">
+                <label for="mother-first-name" class="field-title dp-block"
+                  >First Name</label
+                >
+                <input id="mother-first-name" type="text" name="lastname" />
+              </span>
+              <span class="span-inline">
+                <label for="mother-middle-name" class="field-title dp-block"
+                  >Middle Name</label
+                >
+                <input id="mother-middle-name" type="text" name="lastname" />
+              </span>
             </td>
           </tr>
         </tbody>
