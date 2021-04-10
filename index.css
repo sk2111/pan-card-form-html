@@ -92,3 +92,12 @@ td {
 .address-field {
   width: 250px;
 }
+.address-field-mid {
+  width: 200px;
+}
+.address-field-max {
+  width: 350px;
+}
+.address-field-min {
+  width: 100px;
+}
