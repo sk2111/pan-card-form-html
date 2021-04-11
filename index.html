@@ -860,6 +860,41 @@
           <input id="paperlessno" type="radio" name="paperlesspan"/>
           <label for="paperlessno">No</label>
         </div>
+        <div>
+          <input id="dsc" type="radio" name="dsc"/>
+          <label for="dsc">DSC</label>
+          <select class="select-dsc">
+            <option>--Select--</option>
+          </select>
+          <a href="https://www.google.com" target="_blank" class="anchor-guide field-title">Guidelines for DSC user</a>
+        </div>
+        <div class="mt-10">
+          <label for="photo-upload">Upload Photo</label>
+          <input id="photo-upload" class="upload-space" type="file" name="upload-photo">
+          <label for="sign-upload">Upload Signature</label>
+          <input id="sign-upload" class="upload-space" type="file" name="upload-sign">
+        </div>
+        <div class="mt-10">
+          <label for="doc-upload">Upload Document</label>
+          <input id="doc-upload" class="upload-space" type="file" name="upload-doc">
+        </div>
+        <button class="mt-10">Fetch from DigiLocker</button>
+        <div class="mt-20">
+          <div class="mt-10">
+            <label for="already-uploaded-photo" class="exisiting-label">ALREADY UPLOADED PHOTO:</label>
+            <input id="already-uploaded-photo" type="text"  class="photo-width"/>
+          </div>
+          <div class="mt-20">
+            <label for="already-uploaded-sign" class="exisiting-label">ALREADY UPLOADED SIGNATURE:</label>
+            <input id="already-uploaded-sign" type="text" class="sign-width"/>
+          </div>
+          <div class="mt-20">
+            <label for="already-uploaded-doc" class="exisiting-label upload-doc-label">ALREADY UPLOADED DOCUMENTS:</label>
+            <textarea id="already-uploaded-doc" type="text" class="doc-width"/> </textarea>
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
+        </div>
+        <hr />
       </div>
     </form>
   </body>

@@ -58,7 +58,7 @@ td {
   font-size: 12px;
   font-weight: 500;
 }
-.field-title-big{
+.field-title-big {
   font-size: 14px;
   font-weight: 400;
 }
@@ -168,4 +168,40 @@ td {
 }
 .ml-20 {
   margin-left: 20px;
+}
+.select-dsc {
+  width: 200px;
+  margin-right: 25px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.upload-space {
+  margin-right: 30%;
+}
+.exisiting-label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  width: 500px;
+}
+.photo-width{
+  width:250px;
+}
+.sign-width{
+  width:200px;
+}
+.doc-width{
+  width:370px;
+  height:150px;
+}
+.upload-doc-label{
+  position: relative;
+  bottom: 60px;
+}
+.submit-button{
+  margin-left:650px;
 }
