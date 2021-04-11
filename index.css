@@ -21,6 +21,9 @@ td {
 td {
   padding: 0px;
 }
+.font-italics{
+  font-style: italic;
+}
 .dp-block {
   display: block;
 }
