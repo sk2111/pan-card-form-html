@@ -719,7 +719,7 @@
           <tr>
             <td></td>
             <td colspan="2">
-              <p class="label-small">I/We 
+              <p class="field-title-med">I/We 
                 <input type="text" class="address-field-max" /> 
                 , the applicant the capacity of 
                 <select>
@@ -728,7 +728,7 @@
                 do hereby declare that what is stated above 
                 is true to the best of my information and belief 
               </p>
-              <p class="label-small mt-5">
+              <p class="field-title-med mt-5">
                 I have enclosed <input class="form-field-small" type="text" name="ack-name" />
                 (number of documents) in support of proposed changes/corrections.
               </p>
@@ -738,14 +738,14 @@
           <tr>
             <td></td>
             <td colspan="2">
-              <label for="user-place">Place</label>
+              <label class="field-title-med" for="user-place">Place</label>
               <input id="user-place" type="text" name="userlocation" />
             </td>
           </tr>
           <!-- Verified -->
           <tr>
             <td></td>
-            <td colspan="2">
+            <td colspan="2" class="field-title-med">
               <span class="label-small">
                 Verified today, the
               </span>
@@ -761,6 +761,51 @@
                 <p>YYYY</p>
                 <span>-2020</span>
               </div>
+            </td>
+          </tr>
+          <!-- Enclosed -->
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <p class="field-title-med">I/We have enclosed</p>
+              <div class="field-title-med">
+                <select class="select-proof">
+                  <option>--Please select--</option>
+                </select>
+                as proof
+              </div>
+              <div class="field-title-med">
+                of identity,
+                <select class="select-proof-1">
+                  <option>--Please select--</option>
+                </select>
+                as proof of address
+              </div>
+              <div class="field-title-med">
+                <select class="select-proof-2">
+                  <option>--Please select--</option>
+                </select>
+                as proof of date of birth
+              </div>
+              <div class="field-title-med">
+                and
+                <select>
+                  <option>--Please select--</option>
+                </select>
+                as proof of PAN alloted
+              </div>
+            </td>
+          </tr>
+          <!-- Wish to have -->
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <label class="field-title">Whether you wish to have ?</label>
+              <input id="physicalpan" type="radio" name="wishcard"/>
+              <label for="physicalpan" class="field-title-med">Physical PAN Card & e-PAN Card</label>
+              <input id="onlyepan" type="radio" name="wishcard"/>
+              <label for="onlyepan" class="field-title-med">Only e-PAN Card</label>
+              <a href="https://www.google.com" target="_blank" class="other-proof-link field-title ml-20">Fees Applicable</a>
             </td>
           </tr>
         </tbody>

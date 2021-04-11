@@ -53,6 +53,10 @@ td {
   font-size: 12px;
   font-weight: bold;
 }
+.field-title-med {
+  font-size: 12px;
+  font-weight: 500;
+}
 .citizen-margin {
   margin-right: 50px;
 }
@@ -144,4 +148,16 @@ td {
   display: inline-block;
   font-size: 12px;
   width: 17px;
+}
+.select-proof {
+  width: 95%;
+}
+.select-proof-1 {
+  width: 75%;
+}
+.select-proof-2 {
+  width: 85%;
+}
+.ml-20 {
+  margin-left: 20px;
 }
